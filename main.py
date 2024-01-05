@@ -35,7 +35,7 @@ def chars_dict_to_sorted_list(dictionary):
   return list
 
 def print_report(book_words, book_letters_list):
-  print(f"{book_words} is the number of words of the book")
+  print(f"{book_words} -> is the number of words of the book")
   for c in book_letters_list:
     print(f"The '{c['char']}' character was found {c['num']} times")
 
